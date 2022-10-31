@@ -1,4 +1,8 @@
 public class PhoneNumberUtility {
+    //Constructor that restricts creating new object
+    private PhoneNumberUtility(){
+    }
+
     public static String removeUselessSymbols(String phoneNumber) {
         return phoneNumber.replace("-","")
                 .replace("(","")

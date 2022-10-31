@@ -5,6 +5,7 @@ public class Main {
         System.out.println(PhoneNumberUtility.validateCountryCode(phoneNumber));
         String correctedPhoneNumber = PhoneNumberUtility.removeUselessSymbols(phoneNumber);
         PhoneNumberUtility.printOperatorByPhone(correctedPhoneNumber);
+        //PhoneNumberUtility myUtility = new PhoneNumberUtility();
 
     }
 }
